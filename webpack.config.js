@@ -102,6 +102,7 @@ module.exports = {
     hot: isDev,
     port: 3001,
     open: true,
+    historyApiFallback: true,
     static: {
       directory: path.join(__dirname, "src"),
     },
