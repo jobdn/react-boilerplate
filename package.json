@@ -7,6 +7,7 @@
     "dev": "webpack --node-env development",
     "start": "webpack serve --node-env development",
     "build": "webpack --node-env production",
+    "build:check": "cross-env CHECK_BUNDLE_SIZE webpack --node-env production",
     "prepare": "husky install",
     "test": "jest",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src",
